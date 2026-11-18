@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 348 100% 98%;
+    --foreground: 221 39% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 221 39% 11%;
+    --primary: 347 83% 77%;
+    --primary-foreground: 221 39% 11%;
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 221 39% 15%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 215 14% 34%;
+    --accent: 347 83% 96%;
+    --accent-foreground: 221 39% 15%;
+    --border: 220 13% 91%;
+    --ring: 347 83% 77%;
+    --radius: 1rem;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  ::selection {
+    background-color: hsl(var(--primary) / 0.3);
+  }
+}
