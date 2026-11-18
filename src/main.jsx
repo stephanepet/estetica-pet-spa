@@ -319,7 +319,7 @@ function App() {
 
           <p className="mt-5 font-heading text-lg tracking-wide text-foreground">Estética Pet Spa</p>
           <p className="mt-1 text-[0.66rem] font-medium uppercase tracking-[0.32em] text-primary">
-            Amor • Carinho • Cuidado
+            Amor • Carinho • Cuidado • Santo André, SP
           </p>
 
           <p className="mt-5 max-w-sm text-sm leading-relaxed text-muted-foreground">
